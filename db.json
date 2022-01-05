@@ -1,5 +1,19 @@
 [
 	{
+		“cutofftime” : “abc”,
+		“configspec”: “abc”,
+		“dependentprod” : “abc”,
+		“depproddelta” : “abc”,
+		“buildsum” : “abc”,
+		“testsum” : “abc”,
+		“transacdeets” : “anc”,
+		“newobjs” : “abc”,
+		“removedobjs” : “abc”,
+		“movedobjs” : “abc”,
+		“ootchanges” : “abc”,
+		“intginfo” : “abc”,
+	},
+	{
 		“cutofftime” : “iydfgewu1”,
 		“configspec”: “wefou1111”,
 		“dependentprod” : “lefwjhe111”,
