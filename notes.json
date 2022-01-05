@@ -1,0 +1,614 @@
+[
+	{
+		“cutofftime” :  “RDBMS_MAIN_LINUX.X64_211224 was generated with 202112232200 (12/23/2021 22:00) cutoff time”,
+		“configspec” : “Config spec used while creating RDBMS_MAIN_LINUX.X64_211224
+element ODBC:/* .../linuxamd64/LATEST  version_prop.LATEST > 0  branch_prop.ACTIVE != FALSE  does_not_have(branch_prop.ACTIVE) -time 202112232200
+element ODBC:/* .../unix/LATEST  version_prop.LATEST > 0  branch_prop.ACTIVE != FALSE  does_not_have(branch_prop.ACTIVE) -time 202112232200
+element ODBC:/* /main/LATEST  branch_prop.ACTIVE != FALSE  does_not_have(branch_prop.ACTIVE) -time 202112232200
+element PRECOMP:/* .../linuxamd64/LATEST  version_prop.LATEST > 0  branch_prop.ACTIVE != FALSE  does_not_have(branch_prop.ACTIVE) -time 202112232200
+element PRECOMP:/* .../unix/LATEST  version_prop.LATEST > 0  branch_prop.ACTIVE != FALSE  does_not_have(branch_prop.ACTIVE) -time 202112232200
+element PRECOMP:/* /main/LATEST  branch_prop.ACTIVE != FALSE  does_not_have(branch_prop.ACTIVE) -time 202112232200
+element ORAOLAP:/* .../linuxamd64/LATEST  version_prop.LATEST > 0  branch_prop.ACTIVE != FALSE  does_not_have(branch_prop.ACTIVE) -time 202112232200
+element ORAOLAP:/* .../unix/LATEST  version_prop.LATEST > 0  branch_prop.ACTIVE != FALSE  does_not_have(branch_prop.ACTIVE) -time 202112232200
+element ORAOLAP:/* /main/LATEST  branch_prop.ACTIVE != FALSE  does_not_have(branch_prop.ACTIVE) -time 202112232200
+element CTX:/* .../linuxamd64/LATEST  version_prop.LATEST > 0  branch_prop.ACTIVE != FALSE  does_not_have(branch_prop.ACTIVE) -time 202112232200
+element CTX:/* .../unix/LATEST  version_prop.LATEST > 0  branch_prop.ACTIVE != FALSE  does_not_have(branch_prop.ACTIVE) -time 202112232200
+element CTX:/* .../osds/LATEST  version_prop.LATEST > 0  branch_prop.ACTIVE != FALSE  does_not_have(branch_prop.ACTIVE) -time 202112232200
+element CTX:/* /main/LATEST  branch_prop.ACTIVE != FALSE  does_not_have(branch_prop.ACTIVE) -time 202112232200
+element MLE:/* /main/LATEST  branch_prop.ACTIVE != FALSE  does_not_have(branch_prop.ACTIVE) -time 202112232200
+
+element rdbms/.fullsource .../linuxamd64/LATEST -time 20211223220731
+element * .../linuxamd64/LATEST  version_prop.LATEST > 0  branch_prop.ACTIVE != FALSE  does_not_have(branch_prop.ACTIVE) -time 202112232200
+element * .../unix/LATEST  version_prop.LATEST > 0  branch_prop.ACTIVE != FALSE  does_not_have(branch_prop.ACTIVE) -time 202112232200
+element * /main/LATEST  branch_prop.ACTIVE != FALSE  does_not_have(branch_prop.ACTIVE) -time 202112232200”,
+		“dependentprod” : “ant ANT_1.7.1_GENERIC_091209.1
+nginst NGINST_MAIN_GENERIC_181107.1924
+assistants ASSISTANTS_MAIN_GENERIC_211210
+buildtools BUILDTOOLS_MAIN_LINUX.X64_211216
+rdbms RDBMS_MAIN_LINUX.X64_211224
+dbdev DBDEV_21.3.3.322.1724_GENERIC_RELEASE
+dbengtools DBENGTOOLS_MAIN_LINUX.X64_210819
+javavm JAVAVM_MAIN_LINUX.X64_211105.1
+dbtoolslistener DBTOOLSLISTENER_20.0.0.0.0README_GENERIC_RELEASE
+db3party DB3PARTY_MAIN_LINUX.X64_211026.1545
+graalvm GRAALVM_MAIN_GENERIC_211020
+gradle GRADLE_6.0_GENERIC_200108
+python PYTHON_3.9.5_LINUX.X64_210712
+duma DUMA_19.1_GENERIC_RELEASE
+emll EMLL_12.1.2.0.2_LINUX.X64_181107
+hadoopcore HADOOPCORE_MAIN_LINUX.X64_211213
+hami HAMI_MAIN_LINUX.X64_211212
+has HAS_MAIN_LINUX.X64_211207
+oak OAK_MAIN_LINUX.X64_211216
+usmexa USMEXA_MAIN_LINUX.X64_211209.2101
+usm USM_MAIN_LINUX.X64_211205
+wlm WLM_MAIN_LINUX.X64_211108
+xag XAG_10.25_GENERIC_211210
+jdevadf JDEVADF_DB21.0.0.0.0_GENERIC_190911.2251
+nlstools NLSTOOLS_TPT510_GENERIC_RELEASE
+install INSTALL_MAIN_LINUX.X64_211201
+j2ee J2EE_10.1.3.5.0_GENERIC_RELEASE
+jdk10 JDK10_MAIN_LINUX.X64_180524.1.10.0.46.00
+jdk11 JDK11_MAIN_LINUX.X64_191204.1.11.0.6.B6
+jdk8 JDK8_MAIN_LINUX.X64_210929.1.8.0.311.EAB11
+jdk9 JDK9_MAIN_LINUX.X64_180523.1.9.0.181.B0
+jre10 JRE10_MAIN_LINUX.X64_180524.1.10.0.146.B0
+jre9 JRE9_MAIN_LINUX.X64_180523.1.9.0.181.B0
+jewt JEWT_DB21.0.0.0.0_GENERIC_190605.2232
+entsec ENTSEC_DBMAIN_GENERIC_211005
+ldap LDAP_CLIENTMAIN_LINUX.X64_211027.2
+mgw MGW_MAIN_LINUX.X64_211101
+crypto CRYPTO_MAIN_LINUX.X64_211122
+network NETWORK_MAIN_LINUX.X64_211214
+nlsrtl NLSRTL_MAIN_LINUX.X64_211025
+oem OEM_MAIN_LINUXAMD64_050614.1
+ons ONS_MAIN_LINUX.X64_211108.0800
+rhp RHP_MAIN_LINUX.X64_211005
+obase OBASE_MAIN_GENERIC_200527
+oracle ORACLE_MAIN_LINUX.X64_211216
+oracore ORACORE_MAIN_LINUX.X64_211207.1
+ordim ORDIM_MAIN_LINUX.X64_211111
+osp OSP_MAIN_GENERIC_210929.1
+blaslapack BLASLAPACK_MAIN_LINUX.X64_211206.1108
+oss OSS_PT.EXC_LINUX.X64_211211
+systemr SYSTEMR_3.3.0_LINUX.X64_RELEASE
+opack OPACK_14.1.0.1.13_GENERIC_RELEASE
+opatchauto OPATCHAUTO_MAIN_GENERIC_211129.2140
+opatch OPATCH_MAIN_GENERIC_211129.2317
+oui OUI_MAIN_GENERIC_211027
+outsidein OUTSIDEIN_8.5.5.GENERALPATCH_LINUX_210419.1127
+ovm OVM_MAIN_GENERIC_211124
+perl PERL_5.32.0_LINUX.X64_200707.1826
+pg4appc PG4APPC_MAIN_LINUX.X64_211206
+pg4mq PG4MQ_MAIN_LINUX.X64_211206
+osb OSB_12.1.0.1.0_LINUX.X64_RELEASE
+sdo SDO_MAIN_LINUX.X64_211110
+slax SLAX_MAIN_LINUX.X64_210927
+sqlj SQLJ_MAIN_LINUX.X64_211028
+sqlplus SQLPLUS_MAIN_LINUX.X64_211125
+tomcat8 TOMCAT8_8.5.69.0.0_GENERIC_RELEASE
+usmtools USMTOOLS_MAIN_LINUX.X64_211130.1447
+gitools GITOOLS_MAIN_LINUX.X64_211212.1
+oracler ORACLER_1.5.1.0.1_LINUX.X64_210505
+oraml ORAML_MAIN_LINUX.X64_211011
+tfa TFA_MAIN_GENERIC_211207.2000
+utl UTL_MAIN_GENERIC_211216.1
+wptg WPTG_MAIN_GENERIC_200930.2147
+www WWW_MAIN_LINUX.X64_211213
+ipc IPC_MAIN_LINUX.X64_211203
+xdk XDK_MAIN_LINUX.X64_211118”,
+		“depproddelta” : “No dependent label changes from RDBMS_MAIN_LINUX.X64_211223 to RDBMS_MAIN_LINUX.X64_211224”,
+		“buildsum” : “No build issues for RDBMS_MAIN_LINUX.X64_211224”,
+		“testsum” : “Regression Summary for RDBMS_MAIN_LINUX.X64_211224
+
+   Test Name                 Sucs  Difs    %Dif
+   lrgsrg0                     13     0    0.0%
+   lrgsrga                      2     0    0.0%
+   lrgsrgb                     22     0    0.0%
+   lrgsrgcld1                  16     0    0.0%
+   lrgsrgdbc0lmt               17     0    0.0%
+   lrgsrgdbc1                  17     0    0.0%
+   lrgsrgdbcalmt                6     0    0.0%
+   lrgsrgdbcatpd               19     0    0.0%
+   lrgsrgdbcblmt               30     0    0.0%
+   lrgsrgdbcon0                17     0    0.0%
+   lrgsrgdbcon1                47     0    0.0%
+   lrgsrgdbcon2               238     0    0.0%
+   lrgsrgdbcon3                56     0    0.0%
+   lrgsrgdbcon4                37     0    0.0%
+   lrgsrgdbcon5                36     0    0.0%
+   lrgsrgdbcon6                30     0    0.0%
+   lrgsrgdbcon7                23     0    0.0%
+   lrgsrgdbcon9                39     0    0.0%
+   lrgsrgdbcona                 6     0    0.0%
+   lrgsrgdbconb                30     0    0.0%
+   lrgsrgdbcond                 9     0    0.0%
+   lrgsrgdbcone                50     0    0.0%
+   lrgsrgdbconf                 6     0    0.0%
+   lrgsrgdbconf2               14     0    0.0%
+   lrgsrgdbconh                 4     0    0.0%
+   lrgsrgdbconimc              16     0    0.0%
+   lrgsrgdbconism0             52     0    0.0%
+   lrgsrgdbconj                24     0    0.0%
+   lrgsrgdbcono                11     0    0.0%
+   lrgsrgdbconxe0              20     0    0.0%
+   lrgsrgdbcu                  39     0    0.0%
+   lrgsrgdbculmt               17     0    0.0%
+   lrgsrgdbcuplg               29     0    0.0%
+   lrgsrgdbcur19100             8     0    0.0%
+   lrgsrgdbcur21300             7     0    0.0%
+   lrgsrgdkc                    2     0    0.0%
+   lrgsrgflambe                 1     0    0.0%
+   lrgsrgpdbcs0                36     0    0.0%
+   lrgsrgq                      2     0    0.0%
+   lrgsrgship                   8     0    0.0%
+   lrgsrgship1                  1     0    0.0%
+   lrgsrgu                     19     0    0.0%
+   TOTAL                     1076     0    0.0%”,
+		“transacdeets” : “aamor_rti-24979978
+
+
+Transaction Description:
+This transaction fixes RTI 24979978. The tkjn_schema_unit8.log needed to
+be updated after txn aamor_rti-24733709.
+Orareview Description:
+Transaction aamor_rti-24733709 removed ORA-3053 (missing column name) and
+ replaced it with ORA-931 (missing identifier).
+ Updated tkjn_schema_unit8.log to display ORA-931 instead of ORA-3053. 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:sankara.ravuri  
+Does this txn have a port-specific companion txn? no
+   tk_common/test_root/tkjn/log/tkjn_schema_unit8.log@@/main/aamor_rti-24979978/1 -> /main/3 
+
+
+abilagi_lrg_24872706
+
+
+Transaction Description:Fix the Linux Scripts for Windows
+Orareview Description:
+Fix the Linux Scripts for Windows 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:akshat.mathur ,sudeepthi.siddavatam  
+Does this txn have a port-specific companion txn? 
+   tk_common/test_root/tkis/src/tkisism3ud2.tsc@@/main/abilagi_lrg_24872706/2 -> /main/10 
+   tk_common/test_root/tkis/sosd@@/main/abilagi_lrg_24872706/2 -> /main/447 
+   tk_common/test_root/tkis/src/tkisupg46a.tsc@@/main/abilagi_lrg_24872706/2 -> /main/5 
+   tk_common/test_root/tkis/sosd/tkisgettzfilenu.pl@@/main/abilagi_lrg_24872706/2 -> /main/1 
+
+
+acolunga_bug-33584452
+
+
+   rdbms/admin/catjsonu.sql@@/main/acolunga_bug-33584452/1 -> /main/2 
+
+
+akaimale_lrg-24311632_main
+
+
+Transaction Description:
+Orareview Description:
+When a restart point is set, Fixed Flags are set to '0'. '0' is a valid
+  fixed flag. so under some cases the record encoding becomes SAMEFIXED
+ instead of getting marked as REGULAR. During parsing of this record, 
+ parsing side gets wrong flags and that results in ORA-600. with
+ this fix, we reseve one bit for invalid and we set that bit during
+ restart. so it will never use SAMEFIXED after a restart. 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:mohit.singal  
+Does this txn have a port-specific companion txn? 
+   rdbms/src/generic/diagfw/uts/dbgtfm.c@@/main/akaimale_lrg-24311632_main/1 -> /main/42 
+   rdbms/src/generic/diagfw/uts/if/dbgtfm_i.h@@/main/akaimale_lrg-24311632_main/1 -> /main/25 
+
+
+aniths_rti-24958879
+
+
+Transaction Description:
+Orareview Description:
+ #Resolution: with the higher compatible these plan changes are acceptable and can be patched.  
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:venkatasubramanian.venkatraman ,shalini.ayanala  
+Does this txn have a port-specific companion txn? 
+   tk_common/test_root/tkjn/log/tkjnextb2_hcc.log@@/main/aniths_rti-24958879/1 -> /main/10 
+
+
+arvijaya_rti-24978536
+
+
+Transaction Description:
+Orareview Description:
+PROBLEM: 12.2 to 23 direct upgrade is no longer supported 
+ FIX: Move the lrg to use 19c as lv instead of 12.2
+ Submitted farm job 29753359 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:abhishek.chitre  
+Does this txn have a port-specific companion txn? 
+   tk_common/macro/src/lrgdeps.xml@@/main/arvijaya_rti-24978536/1 -> /main/745 
+
+
+bzane_bug-33525355
+
+
+   tkmain_9/tkmg/src@@/main/bzane_bug-33525355/1 -> /main/623 
+   rdbms/src/server/txn/lcltx/ktu.c@@/main/bzane_bug-33525355/13 -> /main/1177 
+   rdbms/src/server/ccl/dlm/kjs.c@@/main/bzane_bug-33525355/7 -> /main/584 
+   rdbms/src/server/ccl/dlm/kju.c@@/main/bzane_bug-33525355/6 -> /main/655 
+   rdbms/src/server/ccl/dlm/kjx.c@@/main/bzane_bug-33525355/4 -> /main/775 
+   tkmain_9/tkmg/src/tkml_b33525355.tsc@@/main/bzane_bug-33525355/1 -> /main/1 
+   tkmain_9/tkmg/src/tkmg_kjxrri_run_tx.tsc@@/main/bzane_bug-33525355/1 -> /main/1 
+   tkmain_9/tkmg/src/tkmg_kjxrri_pkt_tx.tsc@@/main/bzane_bug-33525355/1 -> /main/1 
+   rdbms/src/server/ccl/dlm/kjp.h@@/main/bzane_bug-33525355/1 -> /main/187 
+   rdbms/src/server/ccl/dlm/kjr.c@@/main/bzane_bug-33525355/6 -> /main/459 
+   rdbms/src/server/ccl/dlm/kjdgt.h@@/main/bzane_bug-33525355/3 -> /main/114 
+
+
+dmaniyan_ua2
+
+
+Transaction Description:
+Orareview Description:
+This transaction fixes some issues introduced in the bug fix 33445462.
+ Previously, all set operations whose query branches did not have any cross-shard queries 
+ were fully pushed to the shards. However, a couple of issues were noticed with this 
+ approach that return wrong results. Hence, we are now restricting pushing only those 
+ set operations that have only UNION ALL operations to the shards and don't have any
+ cross-shard query block branches. Also, if any of the branches of the UNION ALL operator 
+ has any query block with only duplicated tables, then also we can not push the query to the shards. 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:rennie.sreekumar ,hong.su ,nourdine.benadjaoud ,vikas.m.mehta  
+Does this txn have a port-specific companion txn? 
+Please explain the mergereq errors and warnings generated during submission
+BCT-TEST: Bug Closure Template (BCT) is not present in the OraReview.
+Please update this information in the OraReview BCT section using the link below.
+BCT information from OraReview will be propagated to BugDB at 'ade endmerge'
+<A target="_blank" href="http://orareview.us.oracle.com/109636716 ">http://orareview.us.oracle.com/109636716 </A>&nbsp;
+   rdbms/src/server/optim/cbo/kkoshd.c@@/main/dmaniyan_ua2/2 -> /main/159 
+   tk_common/test_root/tkos/log/tkosmcj.log@@/main/dmaniyan_ua2/1 -> /main/39 
+   tk_common/test_root/tkos/log/tkosmcjp.log@@/main/dmaniyan_ua2/2 -> /main/46 
+   rdbms/src/server/optim/if/kkqjf.h@@/main/dmaniyan_ua2/1 -> /main/8 
+   rdbms/src/server/optim/vwsubq/kkqjf.c@@/main/dmaniyan_ua2/1 -> /main/63 
+   tk_common/test_root/tkos/log/tkosmtfsetopi.log@@/main/dmaniyan_ua2/1 -> /main/12 
+   tk_common/test_root/tkos/log/tkosmtfsetopm.log@@/main/dmaniyan_ua2/1 -> /main/12 
+   tk_common/test_root/tkos/log/tkosmtfsetopu.log@@/main/dmaniyan_ua2/1 -> /main/11 
+
+
+hmohanku_rti-24854483
+
+
+Transaction Description:
+Orareview Description:
+With project 77385 the database user password is increased from the current
+ 30 bytes to 1024 bytes. this transaction is trying to fix the RTIs as a result
+ of this change.
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:akshay.c.kumar ,xuan.fan ,surya.ganesh ,suresh.kumar.janipalli ,dhilipkumar.gopal ,bo.li  
+Does this txn have a port-specific companion txn? 
+   tkmain_6/tkpg/src/tkpglid02.tsc@@/main/hmohanku_rti-24854483/2 -> /main/9 
+   tkmain_3/tkpl/log/tkpllidentexceptions.log@@/main/hmohanku_rti-24854483/1 -> /main/4 
+   tkmain_3/tkpl/sql/tkpllidentexceptions.sql@@/main/hmohanku_rti-24854483/3 -> /main/4 
+   tkmain_6/tkpg/log/t2pgnli02_jaa.log@@/main/hmohanku_rti-24854483/1 -> /main/2 
+   tkmain_6/tkpg/log/t1pgnli02_wwa.log@@/main/hmohanku_rti-24854483/1 -> /main/2 
+   tkmain_6/tkpg/log/t1pgnli02_waa.log@@/main/hmohanku_rti-24854483/1 -> /main/2 
+   tkmain_6/tkpg/log/tkpglid02e.log@@/main/hmohanku_rti-24854483/2 -> /main/1 
+   tkmain_6/tkpg/log@@/main/hmohanku_rti-24854483/2 -> /main/1418 
+   tkmain_3/tkzg/log/tkzgpwcp2.log@@/main/hmohanku_rti-24854483/1 -> /main/2 
+   tkmain_3/tkzg/log/tkzgpwcp1.log@@/main/hmohanku_rti-24854483/1 -> /main/2 
+   tkmain_3/tkzg/sql/tkzgpwcp2.sql@@/main/hmohanku_rti-24854483/1 -> /main/2 
+   tkmain_3/tkzg/sql/tkzgpwcp1.sql@@/main/hmohanku_rti-24854483/1 -> /main/2 
+   tkmain_3/tkpl/log/tkpllidenn11.log@@/main/hmohanku_rti-24854483/1 -> /main/5 
+   tkmain_3/tkpl/log/tkpllidenn12.log@@/main/hmohanku_rti-24854483/1 -> /main/8 
+   tkmain_3/tkpl/sql/tkpllidenn1.sql@@/main/hmohanku_rti-24854483/2 -> /main/4 
+   tkmain_3/tkpl/src/tkpllidenn1.tsc@@/main/hmohanku_rti-24854483/1 -> /main/9 
+   tpccob2/src/tpcblid02.pco@@/main/hmohanku_rti-24854483/1 -> /main/2 
+   tpccob2/tsc/tpcblid02.tsc@@/main/hmohanku_rti-24854483/1 -> /main/4 
+   tpccob2/log@@/main/hmohanku_rti-24854483/2 -> /main/204 
+   tpccob2/log/tpcblid02e.log@@/main/hmohanku_rti-24854483/1 -> /main/1 
+
+
+hroy_rti-24966271
+
+
+Transaction Description:
+Orareview Description:
+PROBLEM: Reference Log needs update 
+ FIX: Reference Log update for RTI 24966271 caused by hroy_bug-33615121 
+ *** This is just a log update.
+ Submitted farm job 29753675 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:shalini.ayanala  
+Does this txn have a port-specific companion txn? 
+   tk_common/test_root/tkjn/log/tkjnpostup.log@@/main/hroy_rti-24966271/1 -> /main/28 
+
+
+jcjeon_lrg-24981015
+
+
+Transaction Description:
+Fix lrg pid 24981015.
+Orareview Description:
+Fix lrg 24981015:
+ 1. cause
+    1-1. ffegonza_bug-31782680 txn :following DD tables changed on 211221 label
+    SYS [CDB/DBA]_ACCHK_EVENTS
+    SYS [CDB/DBA]_ACCHK_EVENTS_SUMMARY
+    SYS [CDB/DBA]_ACCHK_STATISTICS
+    [CDB/DBA]_ACCHK_EVENTS view added INFO field:
+     INFO: To express additional information if the event has this info attached.
+ 2. fix  : patch log 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:bo.li  
+Does this txn have a port-specific companion txn? 
+   tk_compatibility/compat/log/1900/tkbcseedschemachk1.log@@/main/jcjeon_lrg-24981015/1 -> /main/15 
+   tk_compatibility/compat/log/1900/tkbc_cdbnlsseed_meta_cv_vs_lv.dif.lst@@/main/jcjeon_lrg-24981015/1 -> /main/11 
+
+
+jxfan_rti-24957540
+
+
+Transaction Description:
+Orareview Description:
+fix rti 24957540 by patching new logs 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:jooncheol.jeon  
+Does this txn have a port-specific companion txn? 
+   tkmain_m/tku3/log/tku3jnzht2.log@@/main/jxfan_rti-24957540/1 -> /main/6 
+   tkmain_m/tku3/log/tku3jnzhs2.log@@/main/jxfan_rti-24957540/1 -> /main/6 
+   tkmain_m/tku3/log/tku3jnzht.log@@/main/jxfan_rti-24957540/1 -> /main/4 
+   tkmain_m/tku3/log/tku3jnja2.log@@/main/jxfan_rti-24957540/1 -> /main/6 
+   tkmain_m/tku3/log/tku3jnde2.log@@/main/jxfan_rti-24957540/1 -> /main/6 
+   tkmain_m/tku3/log/tku3jnzhs.log@@/main/jxfan_rti-24957540/1 -> /main/4 
+   tkmain_m/tku3/log/tku3jnde.log@@/main/jxfan_rti-24957540/1 -> /main/4 
+   tkmain_m/tku3/log/tku3jnja.log@@/main/jxfan_rti-24957540/1 -> /main/4 
+
+
+jxfan_rti-24966302
+
+
+Transaction Description:
+Orareview Description:
+fix rti 24966302 due to behavior change 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:bo.li  
+Does this txn have a port-specific companion txn? 
+   tkmain_m/tkut/log/tucx2ave_cdb.log@@/main/jxfan_rti-24966302/1 -> /main/36 
+   tkmain_m/tku3/log/t392dst_qry45_bu.log@@/main/jxfan_rti-24966302/1 -> /main/15 
+   tkmain_m/tku3/log/t392dst_qry45_au.log@@/main/jxfan_rti-24966302/1 -> /main/17 
+   tkmain_3/tkb2/log/tkbomcas_cdb.log@@/main/jxfan_rti-24966302/1 -> /main/4 
+   tkmain_3/tkb2/log/tkbomcas.log@@/main/jxfan_rti-24966302/1 -> /main/35 
+
+
+jyarmus_rti-24980654
+
+
+Transaction Description:
+Orareview Description:
+PROBLEM: Reference Log needs update 
+ FIX: Reference Log update for RTI 24980654 caused by jyarmus_bug-33359175 
+ Change to log is appropriate for transaction jyarmus_bug-33359175 
+ Submitted farm job 29755342 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:joseph.yarmus ,jian.wang  
+Does this txn have a port-specific companion txn? 
+Please explain the mergereq errors and warnings generated during submission
+CRITICAL-SRG2-TEST: Short regress has not been run for this transaction
+ Running short regress is strongly recommended.
+   tk_datamining/tmdm/log/tmhrfull_nolinux.log@@/main/jyarmus_rti-24980654/1 -> /main/7 
+
+
+krikrish_rti22274423_1
+
+
+Transaction Description:
+This transaction takes care of adding the required services to the lst file so that this file which is actin as the input file for the registry update (in replicate_oh.pl_
+gets the right value to be udpated.
+List reviewers of all files in this transaction:jbhati
+Does this txn have a port-specific companion txn? 
+   tk_common/macro/data/winservicesdb.lst@@/main/krikrish_rti22274423_1/1 -> /main/3 
+
+
+kwoseo_bug-33282129
+
+
+   tkmain_2/tkfg/src@@/main/kwoseo_bug-33282129/1 -> /main/951 
+   tkmain_2/tkfg/log@@/main/kwoseo_bug-33282129/1 -> /main/1890 
+   rdbms/src/server/psm/kfd.c@@/main/kwoseo_bug-33282129/4 -> /main/1177 
+   rdbms/src/server/psm/if/kfd2.h@@/main/kwoseo_bug-33282129/3 -> /main/134 
+   tkmain_2/tkfg/log/tkfghlthetc_test2.log@@/main/kwoseo_bug-33282129/1 -> /main/1 
+   tkmain_2/tkfg/log/tkfghlthetc_test1.log@@/main/kwoseo_bug-33282129/1 -> /main/1 
+   tkmain_2/tkfg/src/tkfghlthetc.tsc@@/main/kwoseo_bug-33282129/1 -> /main/1 
+   tkmain_2/tkfg/src/tkfghlth.tsc@@/main/kwoseo_bug-33282129/2 -> /main/3 
+
+
+lclarke_211220
+
+
+Transaction Description:
+Orareview Description:
+The tksbpdbshard.tsc and tksbsuit.tsc files are updated to add support for ZDLRA as a backup destination.  The changes to tkspdbshard.tsc depend on product changes that have not yet been merged.  They have been tested successfully locally in another transaction where all the required ZDLRA related updates were present. This test will be run on the farm when all needed supporting updates are merged, but for now there will not be a farm record for this test.
+ The changes to tkdxx_sdb_reg.sh are additional workarounds to various bugs that interfere with PDB-level services being started by Clusterware.  These fixes are conditionalized and can be turned off once all the needed bug fixes finally merge into MAIN labels.  Note that this is an area of functionality that has broken several times, so being able to enable addtional commands to open PDBs when needed may prove useful in the future.  The tkdxx_sdb_reg.sh tests are run only on NEDC systems and are not run on farm systems.  ADE for the tkdxx tests is used only force source control and therefor there is no farm record for tkdxx tests. 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:jeffrey.detjen  
+Does this txn have a port-specific companion txn? no 
+Please explain the mergereq errors and warnings generated during submission
+FARM-TEST: No record of transaction lclarke_211220 in farm.
+see Transaction description for details.
+   tkmain_4/tksb/src/tksbsuit.tsc@@/main/lclarke_211220/1 -> /main/12 
+   tkmain_4/tkdx/sreg/sdb_backup/tkdxx_sdb_reg.sh@@/main/lclarke_211220/3 -> /main/18 
+   tkmain_4/tksb/src/tksbpdbshard.tsc@@/main/lclarke_211220/1 -> /main/7 
+
+
+ldaynes_lrg-24830143
+
+
+Transaction Description:
+Orareview Description:
+Update logs to take into account new system privileges introduced by proj. 82375 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:rishabh.saini ,md.sultan  
+Does this txn have a port-specific companion txn? 
+no
+   tkmain_3/tkzg/log/tkzgbug13554043.log@@/main/ldaynes_lrg-24830143/3 -> /main/6 
+   tkmain_3/tkzg/log/tkzgbug1_cdb.log@@/main/ldaynes_lrg-24830143/2 -> /main/54 
+
+
+lokeskum_rti-24957799
+
+
+Transaction Description:
+Orareview Description:
+ #Problem:
+ - DBStartup with compatible=12.2.0.0.0 fails with ORA-00201 error
+ #Cause:
+ - Code changes on ncramesh_update_min_compatible_23c
+ #Resolution:
+ - DBStartup with compatible=^min_compatibility^ global variable instead
+   of a specific value 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction: lokeskum varun.thakkar  
+Does this txn have a port-specific companion txn? 
+   tkmain_0/tkpq/src/tkpqgrup.tsc@@/main/lokeskum_rti-24957799/1 -> /main/69 
+   tkmain_0/tkpq/src/tkpqset.tsc@@/main/lokeskum_rti-24957799/1 -> /main/49 
+
+
+mssultan_rti-24937853
+
+
+Transaction Description:
+Orareview Description:
+ #Cause: amunnoli_bug-32961468 
+ #FIX: Reference Log update for RTI 24937853 
+ Submitted farm job 29744940 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:shyamsundar.kg  
+Does this txn have a port-specific companion txn? 
+   tkmain_3/tkzg/log/tkzg_all_actions_dwngrd.log@@/main/mssultan_rti-24937853/1 -> /main/4 
+
+
+nkedlaya_rti-24964941
+
+
+Transaction Description:
+Orareview Description:
+After the project transaction 82720: Native TG is merged, the NativeTG
+  feature
+ is default enabled. With that the top level commits won't increment the
+ commint#. Hence the ref log file for the test has to be modified to meet
+ the new behaviour. 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:xiaoli.qi  
+Does this txn have a port-specific companion txn? 
+   tkmain_6/tkin/log/kjac_xa.log@@/main/nkedlaya_rti-24964941/2 -> /main/6 
+
+
+osuro_bug-33681817
+
+
+Transaction Description:
+Orareview Description:
+This transaction solves an ORA-600 after upgrading from 19 to 23
+ which prevents several AWR operations due exceeeding the allowed
+ number of DBIDs registered.
+ The problem was caused because the registration limit was not
+ enforced during registration time, allowing more DBIDs to be
+ registered and causing error when performing the actual operation
+ This transaction increase the overall limit of registrations to 8k
+ and introduce a soft-limit that can be configured on a system.
+ By default the 19c limit is retained 1k. 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:yujun.wang ,jack.liao  
+Does this txn have a port-specific companion txn? No
+   tkmain_2/tman/src/tmwrrmwrctl.tsc@@/main/osuro_bug-33681817/3 -> /main/5 
+   rdbms/src/server/svrman/if/kew.h@@/main/osuro_bug-33681817/3 -> /main/185 
+   rdbms/src/server/svrman/if/kewr.h@@/main/osuro_bug-33681817/1 -> /main/250 
+   rdbms/src/server/svrman/swrf/kewr.c@@/main/osuro_bug-33681817/1 -> /main/476 
+   rdbms/src/server/svrman/if/kew2.h@@/main/osuro_bug-33681817/1 -> /main/196 
+   rdbms/src/server/svrman/if/kewrtb2.h@@/main/osuro_bug-33681817/1 -> /main/336 
+   tkmain_2/tman/log@@/main/osuro_bug-33681817/1 -> /main/1772 
+   tkmain_2/tman/log/tmwrrmwrctl_limit.log@@/main/osuro_bug-33681817/1 -> /main/1 
+
+
+pgahukar_bug-33667548
+
+
+   rdbms/src/server/oltp/re/interface/kwrixei.c@@/main/pgahukar_bug-33667548/3 -> /main/9 
+   rdbms/src/server/oltp/re/interface/kwrc.c@@/main/pgahukar_bug-33667548/3 -> /main/107 
+   rdbms/src/server/oltp/re/interface/kwra.c@@/main/pgahukar_bug-33667548/2 -> /main/128 
+   rdbms/src/server/oltp/re/interface/kwri.c@@/main/pgahukar_bug-33667548/3 -> /main/30 
+   rdbms/src/server/oltp/re/locinc/kwru0.h@@/main/pgahukar_bug-33667548/1 -> /main/13 
+   rdbms/src/server/oltp/re/interface/kwra0.c@@/main/pgahukar_bug-33667548/3 -> /main/68 
+   rdbms/src/server/oltp/re/execution/kwre0.c@@/main/pgahukar_bug-33667548/4 -> /main/58 
+
+
+pyam_bug-33549501
+
+
+   rdbms/src/server/dict/rowcache/kqd.c@@/main/pyam_bug-33549501/2 -> /main/286 
+
+
+sajimoha_bug-33657553
+
+
+   rdbms/src/server/ccl/dlm/kjbr.c@@/main/sajimoha_bug-33657553/2 -> /main/1458 
+   rdbms/src/server/ccl/dlm/kjbm.c@@/main/sajimoha_bug-33657553/2 -> /main/1194 
+   rdbms/src/server/ccl/dlm/kjbm.h@@/main/sajimoha_bug-33657553/1 -> /main/282 
+
+
+sfeinste_lrg-24958615
+
+
+Transaction Description:
+Orareview Description:
+Remove compat tests for versions < 19.0 since min compat is now 19.0 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:anne.murphy  
+Does this txn have a port-specific companion txn? 
+   rdbms/src/server/hcs/changes.txt@@/main/sfeinste_lrg-24958615/1 -> /main/1086 
+   tkmain_9/tkhcs/log@@/main/sfeinste_lrg-24958615/1 -> /main/288 
+   tkmain_9/tkhcs/src/tkhcscompat.tsc@@/main/sfeinste_lrg-24958615/1 -> /main/14 
+
+
+soumysah_bug-33060039
+
+
+   rdbms/include/dbgc.h@@/main/soumysah_bug-33060039/2 -> /main/51 
+   tkmain_2/tdiag/src@@/main/soumysah_bug-33060039/1 -> /main/170 
+   rdbms/src/generic/diagfw/adr/adl/dbgl.c@@/main/soumysah_bug-33060039/1 -> /main/42 
+   tkmain_2/tdiag/src/tdiaglogging.tsc@@/main/soumysah_bug-33060039/3 -> /main/11 
+   tkmain_2/tdiag/src/tdadbug33060039.c@@/main/soumysah_bug-33060039/1 -> /main/1 
+   tkmain_2/tdiag/src/tdadbug33060039.tsc@@/main/soumysah_bug-33060039/1 -> /main/1 
+
+
+vikameht_lrg-24968040
+
+
+Transaction Description:
+Orareview Description:
+The transaction is to fix RTIs 24968570,24968040. They require reference log update for gdsctl help output. Resulted from new network label drop. 
+** This transaction reviewed within orareview -- the reviewer list has been automatically extracted ** 
+List reviewers of all files in this transaction:rennie.sreekumar ,harsh.m.mehta ,aman.z.kumar  
+Does this txn have a port-specific companion txn? 
+   tk_common/test_root/tkgd/log/tkgdshcmd0.log@@/main/vikameht_lrg-24968040/1 -> /main/47 
+   tk_common/test_root/tkgd/log/tkgdcmd9.log@@/main/vikameht_lrg-24968040/1 -> /main/51”,
+		“newobjs” : “tk_common/test_root/tkis/sosd/tkisgettzfilenu.pl@@/main/1
+   tkmain_2/tdiag/src/tdadbug33060039.c@@/main/1
+   tkmain_2/tdiag/src/tdadbug33060039.tsc@@/main/1
+   tkmain_2/tkfg/log/tkfghlthetc_test1.log@@/main/1
+   tkmain_2/tkfg/log/tkfghlthetc_test2.log@@/main/1
+   tkmain_2/tkfg/src/tkfghlthetc.tsc@@/main/1
+   tkmain_2/tman/log/tmwrrmwrctl_limit.log@@/main/1
+   tkmain_6/tkpg/log/tkpglid02e.log@@/main/1
+   tkmain_9/tkmg/src/tkmg_kjxrri_pkt_tx.tsc@@/main/1
+   tkmain_9/tkmg/src/tkmg_kjxrri_run_tx.tsc@@/main/1
+   tkmain_9/tkmg/src/tkml_b33525355.tsc@@/main/1
+   tpccob2/log/tpcblid02e.log@@/main/1”,
+		“removedobjs” : “tkmain_9/tkhcs/log/tkhcs000_12_0.log@@/main/11
+   tkmain_9/tkhcs/log/tkhcs000_12_2.log@@/main/34
+   tkmain_9/tkhcs/log/tkhcs000_12_2_0_2.log@@/main/30”,
+		“movedobjs” : “”,
+		“ootchanges” : “rdbms/utl/timing_db_ondir.txt@@/linuxamd64/1635
+   rdbms/utl/timing_db_onfile.txt@@/linuxamd64/1630
+   rdbms/utl/timing_db_onfile.txt@@/linuxamd64/1629
+   rdbms/utl/timing_db_ondir.txt@@/linuxamd64/1634”,
+		“intginfo” : “”,
+	}
+]
