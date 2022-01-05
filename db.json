@@ -1,12 +1,3 @@
-[
-	{
-		“cutofftime” : “abc”,
-		“configspec”: “abc”,
-		
-	},
-	{
-		“cutofftime” : “iydfgewu1”,
-		“configspec”: “wefou1111”,
-		
-	}
+[{“cutofftime” : “abc”,“configspec”: “abc”},
+ {“cutofftime” : “iydfgewu1”,“configspec”: “wefou1111”}
 ]
