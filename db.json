@@ -2,29 +2,11 @@
 	{
 		“cutofftime” : “abc”,
 		“configspec”: “abc”,
-		“dependentprod” : “abc”,
-		“depproddelta” : “abc”,
-		“buildsum” : “abc”,
-		“testsum” : “abc”,
-		“transacdeets” : “anc”,
-		“newobjs” : “abc”,
-		“removedobjs” : “abc”,
-		“movedobjs” : “abc”,
-		“ootchanges” : “abc”,
-		“intginfo” : “abc”,
+		
 	},
 	{
 		“cutofftime” : “iydfgewu1”,
 		“configspec”: “wefou1111”,
-		“dependentprod” : “lefwjhe111”,
-		“depproddelta” : “weifhwei111111”,
-		“buildsum” : “efe”,
-		“testsum” : “rwgreg”,
-		“transacdeets” : “1e23de”,
-		“newobjs” : “13r321f2”,
-		“removedobjs” : “234tg4g”,
-		“movedobjs” : “4gf5r”,
-		“ootchanges” : “42g5hyg5”,
-		“intginfo” : “24g35hg5”,
+		
 	}
 ]
