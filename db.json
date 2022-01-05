@@ -1,25 +1,16 @@
 [
 	{
-		“cutofftime” : “RDBMS_MAIN_LINUX.X64_211224 was generated with 202112232200 (12/23/2021 22:00) cutoff time”,
-		“configspec”: “Config spec used while creating RDBMS_MAIN_LINUX.X64_211224 element ODBC:/* .../linuxamd64/LATEST  							   version_prop.LATEST > 0  branch_prop.ACTIVE != FALSE  				   does_not_have(branch_prop.ACTIVE) -time 202112232200”,
-		“dependentprod” : “ant ANT_1.7.1_GENERIC_091209.1
-				  nginst NGINST_MAIN_GENERIC_181107.1924
-				  assistants ASSISTANTS_MAIN_GENERIC_211210
-    				  buildtools BUILDTOOLS_MAIN_LINUX.X64_211216
-  				  rdbms RDBMS_MAIN_LINUX.X64_211224
-    				  dbdev DBDEV_21.3.3.322.1724_GENERIC_RELEASE
-				  dbengtools DBENGTOOLS_MAIN_LINUX.X64_210819
-				  javavm JAVAVM_MAIN_LINUX.X64_211105.1”,
-		“depproddelta” : “No dependent label changes from RDBMS_MAIN_LINUX.X64_211223 to RDBMS_MAIN_LINUX.X64_211224”,
-		“buildsum” : “No build issues for RDBMS_MAIN_LINUX.X64_211224”,
-		“testsum” : “Regression Summary for RDBMS_MAIN_LINUX.X64_211224”,
-		“transacdeets” : “Transaction Description:
-				This transaction fixes RTI 24979978. The tkjn_schema_unit8.log needed to
-				be updated after txn aamor_rti-24733709.”,
-		“newobjs” : “tk_common/test_root/tkis/sosd/tkisgettzfilenu.pl@@/main/1”,
-		“removedobjs” : “tkmain_9/tkhcs/log/tkhcs000_12_0.log@@/main/11”,
-		“movedobjs” : “”,
-		“ootchanges” : “rdbms/utl/timing_db_ondir.txt@@/linuxamd64/1635”,
-		“intginfo” : “”,
+		“cutofftime” : “1”,
+		“configspec”: “1111”,
+		“dependentprod” : “111”,
+		“depproddelta” : “111111”,
+		“buildsum” : “efe”,
+		“testsum” : “rwgreg”,
+		“transacdeets” : “1e23de”,
+		“newobjs” : “13r321f2”,
+		“removedobjs” : “234tg4g”,
+		“movedobjs” : “4gf5r”,
+		“ootchanges” : “42g5hyg5”,
+		“intginfo” : “24g35hg5”,
 	}
 ]
